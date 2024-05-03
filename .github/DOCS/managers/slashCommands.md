@@ -1,5 +1,7 @@
 # SlashCommands
+
 ## Format
+
 ```js
 import { SlashCommand } from "../../types.js";
 import { ChatInputCommandInteraction, AutocompleteInteraction } from "discord.js";
@@ -17,7 +19,9 @@ export const Slash: SlashCommand = {
     }
 };
 ```
+
 ## Example Code
+
 ```js
 import { SlashCommand } from "../../types.js";
 import { ApplicationCommandOptionType } from "discord.js";

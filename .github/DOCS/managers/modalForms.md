@@ -1,5 +1,7 @@
 # Modals
+
 ## Format
+
 ```js
 // This format is for the modalForms file that you will create in `src/interactions/modalForms`.
 import { ModalForm } from "../../types.js";
@@ -12,8 +14,11 @@ export const Modal: ModalForm = {
     }
 };
 ```
+
 ## Example Code
+
 ### Modal Creation Code
+
 ```js
 import { ActionRowBuilder, ModalBuilder, TextInputBuilder, TextInputStyle } from "discord.js";
 const modal = new ModalBuilder()
@@ -36,7 +41,9 @@ const secondActionRow = new ActionRowBuilder<TextInputBuilder>().addComponents(h
 modal.addComponents(firstActionRow, secondActionRow);
 await interaction.showModal(modal);
 ```
+
 ### Modal Code
+
 ```js
 // Code for the `src/interactions/modalForms/exampleModal.js
 import { ModalForm } from "../../types.js";
@@ -49,5 +56,5 @@ export const Modal: ModalForm = {
             content: "This modal is correctly functioning."
         });
     }
-}; 
+};
 ```

@@ -1,5 +1,7 @@
 # ContextMenus
+
 ## Format
+
 ```js
 import { ApplicationCommandType, UserContextMenuCommandInteraction, MessageContextMenuCommandInteraction } from "discord.js";
 import { ContextMenu } from "../../types.js";
@@ -14,7 +16,9 @@ export const Context: ContextMenu = {
     }
 };
 ```
+
 ## Example Code
+
 ```js
 import { ApplicationCommandType, UserContextMenuCommandInteraction } from "discord.js";
 import { ContextMenu } from "../../types.js";

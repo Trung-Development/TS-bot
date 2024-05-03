@@ -1,5 +1,7 @@
 # Button Interaction
+
 ## Format
+
 ```js
 // This format is for the button file that you will create in `src/interactions/buttons`.
 import { ButtonCommand } from "../../types.js";
@@ -14,7 +16,9 @@ export const Button: ButtonCommand = {
 ```
 
 ## Example Code
+
 ### Button Creation Code
+
 ```js
 import { ButtonBuilder, ActionRowBuilder } from "discord.js";
 
@@ -31,6 +35,7 @@ message.channel.send({
 ```
 
 ### Button Code
+
 ```js
 // Code for the `src/interactions/buttons/evalButton.js
 import { ButtonCommand } from "../../types.js";

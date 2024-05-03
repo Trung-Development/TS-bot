@@ -1,6 +1,9 @@
 # Events
+
 ## Client Events
+
 ### Format
+
 ```js
 import { ClientEvent } from "../types.js";
 
@@ -11,7 +14,9 @@ export const Event: ClientEvent = {
     }
 };
 ```
+
 ### Example Code
+
 ```js
 import { ClientEvent } from "../types.js";
 
@@ -24,7 +29,9 @@ export const Event: ClientEvent = {
 ```
 
 ## Non-Client Events
+
 ### Format
+
 ```js
 import { ClientEvent } from "../types.js";
 
@@ -35,7 +42,9 @@ export const Event: ClientEvent = {
     }
 };
 ```
+
 ### Example Code
+
 ```js
 import { ClientEvent } from "../types.js";
 

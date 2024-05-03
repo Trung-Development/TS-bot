@@ -1,5 +1,7 @@
 # SelectMenus
+
 ## Format
+
 ```js
 // This format is for the button file that you will create in `src/interactions/selectMenus`.
 import { SelectMenu } from "../../types.js";
@@ -10,10 +12,13 @@ export const Menu: SelectMenu = {
     run: (interaction): void => {
         // Code
     }
-}; 
+};
 ```
+
 ## Example Code
+
 ### SelectMenu Creation Code
+
 ```js
 import { ActionRowBuilder, StringSelectMenuBuilder } from "discord.js";
 
@@ -35,7 +40,9 @@ message.channel.send({
     ]
 });
 ```
+
 ### SelectMenu Code
+
 ```js
 // Code for the `src/interactions/selectMenus/selectMenuExample.js
 import { SelectMenu } from "../../types.js";
@@ -45,10 +52,10 @@ export const Menu: SelectMenu = {
     // Other Command Options
     run: (interaction): void => {
         interaction = interaction as StringSelectMenuInteraction<"cached">; // If you want to use StringSelectMenuInteraction specifically.
-        
+
         interaction.reply({
             content: "Here is your cookie! :cookie:"
         });
     }
-}; 
+};
 ```

@@ -1,12 +1,17 @@
 # OnlyGuilds
+
 ## Usage
+
 ```js
-onlyGuilds: ["guildId", "guildId"]
+onlyGuilds: ["guildId", "guildId"];
 // Example
-onlyGuilds: ["guildId", "guildId"]
+onlyGuilds: ["guildId", "guildId"];
 ```
-* The command will only be able to be ran in those guilds.
+
+- The command will only be able to be ran in those guilds.
+
 ## Return Error
+
 ```js
-returnOnlyGuildsError: Boolean // Default: true
+returnOnlyGuildsError: Boolean; // Default: true
 ```

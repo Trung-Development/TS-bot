@@ -1,5 +1,7 @@
 # MessageCommands (With Aliases)
+
 ## Format
+
 ```js
 import { MessageCommand } from "../types.js";
 
@@ -14,6 +16,7 @@ export const MsgCommand: MessageCommand = {
 ```
 
 ## Example Code
+
 ```js
 import { MessageCommand } from "../types.js";
 
